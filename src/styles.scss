@@ -26,7 +26,10 @@ body {
 #menu li:last-child {
   border-right: none;
 }
-
+.nopadding {
+  padding-right: 0px;
+  padding-left: 0px;
+}
 // search
 .logo {
   max-width: 7rem;
@@ -87,6 +90,7 @@ body {
 .category {
   background-color: red;
   padding: 8px 0px;
+  margin-right: 18px;
 
 }
 .category span {
@@ -113,9 +117,8 @@ body {
   float: left;
 }
 .banner-home img {
-  max-width: 30.5rem;
+  max-width: 30.6rem;
   min-height: 33.2rem;
-  margin-left: -15px;
 }
 .home-right ul{
   border: 1px solid #d4d4d4;
@@ -180,8 +183,92 @@ body {
 .time-shopping--context ul li p{
   font-size: 14px;
 }
+.banner {
+  margin-top: 27px;
+}
 .banner img {
   max-width: 100%;
+}
+.padding--left {
+  max-height: 373px;
+  margin-left: 4px;
+}
+.img-margin-top {
+  margin-top: 21px;
+}
+
+.banner-padding {
+  padding-left: 0px;
+  padding-right: 9px;
+}
+
+.row-border {
+  border-top: 3px solid #282828;
+  border-bottom: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  margin-top: 27px;
+  padding: 8px;
+  background-color: #F5F5F5;
+
+}
+.row-border div:first-child span{
+  font-family: SVN-Futura;
+}
+.row-border div:last-child {
+  text-align: right;
+}
+
+.row-border div:last-child span{
+  background-color: red;
+  padding: 4px;
+}
+
+.product {
+  border: 1px solid #E5E5E5;
+}
+.product img {
+  max-width: 65%;
+  margin-left: 43px;
+  margin-top: 20px;
+}
+.product p {
+  padding-left: 10px;
+  font-family: Harmonia Sans Pro Cyr;
+  font-size: 15px;
+}
+
+.time {
+  padding-left: 10px;
+  font-family: Harmonia Sans Pro Cyr;
+}
+.text-white_space {
+  white-space: nowrap;
+  float: right;
+}
+.text-white_space p {
+  position: relative;
+  font-family: SVN-Futura;
+  top: -70px;
+  left: -11rem;
+  color: white;
+}
+
+.input-register {
+  float: right;
+  top: -10rem;
+  left: 10rem;
+}
+
+.title {
+  font-family: SVN-Futura;
+  font-size: 16px;
+
+}
+.footer p {
+  margin-bottom: 0px;
+  padding-top: 11px;
+  font-family: Harmonia Sans Pro Cyr;
 }
 
 

@@ -5,11 +5,11 @@ class BannerHead extends Component{
         return(
             <div id="banner-head">
                 <div className="row">
-                    <div className="col-md-8">
+                    <div className="col-md-8 nopadding">
                         <div className="category">
                             <span>Danh mục sản phẩm</span>
                         </div>
-                        <div className="col-md-4 category-list">
+                        <div className="col-md-4 category-list nopadding">
                             <ul>
                                 <li>Voucher giảm giá</li>
                                 <li>Đi - Ăn - Chơi</li>
@@ -28,11 +28,11 @@ class BannerHead extends Component{
                                 <li>Xe - Phụ kiện</li>
                             </ul>
                         </div>
-                        <div className="col-md-8 banner-home">
+                        <div className="col-md-8 banner-home nopadding">
                             <img src="./../../src/public/banner/banner.png"></img>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 nopadding">
                         <div className="home-right">
                             <ul>
                                 <li>Nạp tiền</li>

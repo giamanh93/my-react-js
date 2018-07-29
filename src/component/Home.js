@@ -7,8 +7,8 @@ class Home extends Component{
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-md-2"></div>
-                    <div className="col-md-10" id="menu">
+                    <div className="col-md-2 nopadding"></div>
+                    <div className="col-md-10 nopadding" id="menu">
                         <ul>
                             <li><a href="#">Bán hàng cùng Memall</a></li>
                             <li><a href="#">Tích Lũy điểm vàng</a></li>
